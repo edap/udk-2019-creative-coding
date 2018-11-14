@@ -20,6 +20,14 @@ Create your own shapes changing the algorithm that we have used to draw the circ
 
 Keywords: `ofPath`, `ofNoise`, shapes.
 
+# 03 Vectors
+
+Description: move things around using vectors.
+
+Keywords: `glm::vec2`
+
+Reference: [Nature of Code](https://natureofcode.com/book/chapter-1-vectors/). It is in processing but the concepts are always valid.
+
 
 
 
