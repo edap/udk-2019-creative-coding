@@ -12,34 +12,29 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofBackgroundGradient(ofColor(200,100,10), ofColor(10,200,10));
-    glm::vec2 mouse = glm::vec2(mouseX, mouseY);
+    auto mouse = glm::vec2(mouseX, mouseY);
 
-    ofPushStyle();
-    ofSetColor(ofFloatColor::red);
+    // line from origin to mouse
+    ofSetColor(200, 200, 10);
     ofSetLineWidth(20);
+    ofDrawLine(origin, mouse);
 
-    // Direction and normalization
-    auto dir = glm::normalize(mouse-origin);
+    // focus direction
+    auto direction = glm::normalize(mouse-origin);
+    ofSetColor(255, 0, 10);
+    ofSetLineWidth(20);
+    //multiplication and addiction
+    ofDrawLine(origin, origin+direction*40);
 
+    ofSetColor(0, 255, 10);
+    ofSetLineWidth(20);
+    //multiplication and subtraction
+    ofDrawLine(origin, origin-direction*40);
 
-    // addiction
-    // ofDrawLine(origin, origin+dir);
-
-    // scalar multiplication
-    //ofDrawLine(origin, origin+dir*30);
-
-    // subtraction
-    ofDrawLine(origin, origin-dir*30);
-
-    ofPopStyle();
-
-    // magnitude. The magnitude is the length of a vector
-//    ofPushStyle();
-//    ofSetColor(ofFloatColor::blueViolet);
-//    ofSetLineWidth(20);
-//    ofDrawLine(0,0,glm::distance(mouse, origin),0);
-//    ofPopStyle();
+    // focus on magnitude
+    ofSetColor(0, 0, 200);
+    ofSetLineWidth(20);
+    ofDrawLine(0,0,glm::distance(origin, mouse),0);
 }
 
 //--------------------------------------------------------------
@@ -93,6 +88,6 @@ void ofApp::gotMessage(ofMessage msg){
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){
+void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
 }
