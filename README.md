@@ -28,6 +28,23 @@ Keywords: `glm::vec2`
 
 Reference: [Nature of Code](https://natureofcode.com/book/chapter-1-vectors/). It is in processing but the concepts are always valid.
 
+# 04 Modulo operator and loops and objects
+
+Description: get confident with modulo and loop. Create object, create a collection of object.
+
+Keywords: `%`, `for`, `class`, `vector<myObject>`
+
+Exercises:
+
+Make 3 applications that have a GUI.
+
+- Make an application that uses the modulo operator and `ofPath`.
+
+- Make an application that uses 3 different sine waves with different amplitude and frequency.
+
+
+
+
 
 
 
