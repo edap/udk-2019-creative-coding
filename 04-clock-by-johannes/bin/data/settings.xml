@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<group>
+	<X_sec>12</X_sec>
+	<Y_sec>14</Y_sec>
+	<X_min>28</X_min>
+	<Y_min>4</Y_min>
+	<X_h>13.75</X_h>
+	<Y_h>3.7</Y_h>
+	<SPEED_sec>0.215</SPEED_sec>
+	<SPEED_min>0.06</SPEED_min>
+	<SPEED_h>0.165</SPEED_h>
+	<vel_sec>26.1</vel_sec>
+	<vel_min>3.45</vel_min>
+	<vel_h>3.6</vel_h>
+	<aktualisierung>10</aktualisierung>
+	<var_1>1.62</var_1>
+	<var_2>270</var_2>
+	<var_3>0.825</var_3>
+	<var_4>20</var_4>
+	<var_5>1.665</var_5>
+	<var_6>330</var_6>
+	<framerate>60</framerate>
+	<sec_loop>1</sec_loop>
+	<min_loop>2</min_loop>
+	<h_loop>2</h_loop>
+</group>
