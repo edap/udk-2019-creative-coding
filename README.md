@@ -42,6 +42,14 @@ Make 3 applications that have a GUI.
 
 - Make an application that uses 3 different sine waves with different amplitude and frequency.
 
+# 05 ofNode
+
+Description: introducing ofNode, How to combine several ofNode instances together.
+
+Keywords: 
+
+[ofNode Documentation](https://openframeworks.cc/documentation/3d/ofNode/)
+
 
 
 
