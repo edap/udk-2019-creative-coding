@@ -33,6 +33,11 @@ xcuserdata
 *.opensdf
 *.suo
 ipch/
+*_debug.exp
+*_debug.ilk
+*_debug.lib
+*_debug.pdb
+*/.vs/*
 
 #Eclipse
 .metadata
