@@ -61,7 +61,7 @@ public:
     //NEW
     void repel(){
         glm::vec2 repelPt(ofGetMouseX(), ofGetMouseY());
-        force = repelPt-position;
+        force = position-repelPt;//notice the force is negative
 
         //let get the distance and only repel points close to the mouse
         float dist = glm::length(force);
@@ -69,7 +69,7 @@ public:
 
         velocity *= drag;
         if( dist < 150 ){
-            velocity += -force * 0.6; //notice the force is negative
+            velocity += force * 0.6;
         }else{
             //if the particles are not close to us, lets add a little bit of random movement using noise. this is where uniqueVal comes in handy.
             force.x = ofSignedNoise(uniqueVal, position.y * 0.01, ofGetElapsedTimef()*0.2);
@@ -112,6 +112,7 @@ public:
             int i = 0;
             for(auto t:trails){
                 ofPushStyle();
+                //color.a = 255 -i*20; mess around with alpha
                 ofSetColor(color);
                 ofDrawCircle(t.x, t.y, radius + i*2);
                 ofPopStyle();

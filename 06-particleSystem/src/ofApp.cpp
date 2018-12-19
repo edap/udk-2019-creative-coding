@@ -13,7 +13,7 @@ void ofApp::reset(){
         s.position  = glm::vec2(ofRandom(ofGetWidth()),
                                 ofRandom(ofGetHeight()));
         ofColor col;
-        col.setHsb(ofRandom(100, 200), 255, 255);
+        col.setHsb(ofRandom(0, 150), 255, 255);
         s.color = col;
         s.radius = ofRandom(10, 20);
         s.drag = ofRandom(0.97, 0.99);
@@ -34,7 +34,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofBackgroundGradient(ofColor(210,160,0), ofColor(10,200,0));
+    ofBackgroundGradient(ofColor(80), ofColor(0));
     for(auto s:points){
         s.draw(drawTrail);
     }
