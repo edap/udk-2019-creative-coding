@@ -32,7 +32,6 @@ public:
     glm::vec2 force;
     float drag;
     float uniqueVal;
-    float scale;
     vector<glm::vec2> trails;
 
     float radius;

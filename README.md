@@ -50,6 +50,13 @@ Keywords:
 
 [ofNode Documentation](https://openframeworks.cc/documentation/3d/ofNode/)
 
+# 06 Meshes
+
+Keywords: ofNode, ofEasyCam, ofMaterial, ofLight, 3D coordinate system.
+
+Resources:
+[intro to meshes](https://openframeworks.cc/ofBook/chapters/generativemesh.html)
+
 
 
 
