@@ -52,7 +52,7 @@ Keywords:
 
 # 06 Meshes
 
-Keywords: ofNode, ofEasyCam, ofMaterial, ofLight, 3D coordinate system.
+Keywords: ofNode, ofEasyCam, ofMaterial, ofLight, 3D coordinate system, normal, surfaces.
 
 Resources:
 [intro to meshes](https://openframeworks.cc/ofBook/chapters/generativemesh.html)
