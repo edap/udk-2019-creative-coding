@@ -57,6 +57,9 @@ Keywords: ofNode, ofEasyCam, ofMaterial, ofLight, 3D coordinate system, normal, 
 Resources:
 [intro to meshes](https://openframeworks.cc/ofBook/chapters/generativemesh.html)
 
+#07 Meshes and camera
+Keywords: addVertex, generative meshes, how to rotate a point.
+
 
 
 
