@@ -19,7 +19,7 @@ void ofApp::setup(){
     gui.add(drawMesh);
 
     light.setup();
-    light.setPosition(180, 200, 100);
+    light.setPosition(150, 200, 100);
     light.lookAt(glm::vec3(0,0,0));
     light.enable();
 

@@ -60,6 +60,21 @@ Resources:
 #07 Meshes and camera
 Keywords: addVertex, generative meshes, how to rotate a point.
 
+#08 Audio
+
+Keywords: cone example, waves, amplitude, frequency. Audio input and audio output. Audio analysis, channels and audio buffers. Time domain analysis vs fft analysis. 
+
+Resources:
+- This chapter of the [OF book](https://openframeworks.cc/ofBook/chapters/sound.html) is essential.
+- This article is a good introduction to [digital audio](https://www.webarchive.org.uk/wayback/archive/20160101151542/http://www.jiscdigitalmedia.ac.uk/guide/an-introduction-to-digital-audio)
+- This website from [Columbia University](http://sites.music.columbia.edu/cmc/MusicAndComputers/) covers all aspect of digital audio, it is a good reference if you want to go deep into this topic.
+
+Homeworks:
+- Try out all the examples in the `examples/audio` folder
+- Make an audio-reactive sketch in 3d
+- Make an audio-reactive sketch using ofPath or ofPolyline in 2D.
+
+
 
 
 
