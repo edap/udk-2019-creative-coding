@@ -57,10 +57,10 @@ Keywords: ofNode, ofEasyCam, ofMaterial, ofLight, 3D coordinate system, normal, 
 Resources:
 [intro to meshes](https://openframeworks.cc/ofBook/chapters/generativemesh.html)
 
-#07 Meshes and camera
+# 07 Meshes and camera
 Keywords: addVertex, generative meshes, how to rotate a point.
 
-#08 Audio
+# 08 Audio
 
 Keywords: cone example, waves, amplitude, frequency. Audio input and audio output. Audio analysis, channels and audio buffers. Time domain analysis vs fft analysis. 
 
